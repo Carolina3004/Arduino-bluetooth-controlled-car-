@@ -79,6 +79,9 @@ void loop() {
     Serial.println("SELECT = STOP");
     Stop();
   }
+  else {
+    Stop();
+  }
 }
 
 // allume les LED blanches si avant==true, sinon les rouges
